@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(to right, #00AAFF, #00FF6C)
+}
+
+h1 {
+    color: crimson;
+    text-align: center;
+    font-family: cursive;
+}
+
+.calculator {
+    margin: 0.2rem;
+    padding: 2rem;
+}
+
+.keyboard button,
+input[type='button'] {
+    border-radius: 5%;
+    border: none;
+}
+
+.button,
+input {
+    padding: 15px;
+    margin: 8px;
+    outline: none;
+}
+
+.output,
+.input {
+    background-color: #6b6ef3;
+    padding: 5px;
+    text-align: right;
+    width: 48.5%;
+}
+
+input:hover {
+    background-color: #ccc;
+}
+
+.input {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.keyboard {
+    background-color: #000;
+    width: 50%;
+}
+
+.p {
+    background: red;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.m {
+    background: green;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.a {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.div {
+    background: #333;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.number {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.e {
+    width: 141px;
+    border-radius: 5px !important;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    background-color: #030052;
+    color: antiquewhite;
+}
+
+form {
+    padding-left: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+input {
+    width: 60px;
+}
+
+.keyboard {
+    margin-left: 17rem;
+}
+
+.output {
+    width: 56.5%;
+    padding: 18px 15px;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+/* Smartphones */
+@media only screen and (max-width: 500px) {
+    .e {
+        width: 90%;
+    }
+
+    .keyboard {
+        width: 100%;
+    }
+
+    .calculator {
+        margin: -2rem;
+    }
+
+    .output,
+    .input {
+        width: 55%;
+    }
+
+}
